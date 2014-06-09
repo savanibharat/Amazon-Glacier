@@ -1,0 +1,23 @@
+# HTTP-specific options.
+
+#These are details of amazon
+amazonTimeZone: ****
+amazonUsername: ****
+amazonPassword: ****
+dbName: ****
+dbCollection: ****
+databaseUsername: ****
+databasePassword: ****
+databaseAddress: ****
+databasePort: 53788
+
+# HTTP-specific options.
+http:
+  # Root Path http://{host}:{port}/xxx
+  rootPath: /dropbox/*
+
+  # The port on which the HTTP server listens for service requests.
+  port: 8082
+
+  # The port on which the HTTP server listens for administrative requests.
+  adminPort: 8083
